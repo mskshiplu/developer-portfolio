@@ -13,6 +13,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 80px;
 }
 
 .half-width {
@@ -28,7 +29,7 @@ section {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
-    color: rgba(8, 182, 60, 0.904);
+    color: white;
     font-weight: 800;
     border-radius: 5px;
 
@@ -38,4 +39,10 @@ section {
     background-image: url(images/others/top-banner.png);
     background-repeat: no-repeat;
 
+}
+
+.deram-big {
+    background-image: url(images/others/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
