@@ -1,6 +1,41 @@
-body{
+body {
     font-family: 'Bitter', serif;
+    margin: 0;
 }
-h1{
+
+h1 {
     font-size: 50px;
-}  
+}
+
+.orange-color {
+    color: orange;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 10%;
+}
+
+.half-width img {
+    width: 70%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: rgba(8, 182, 60, 0.904);
+    font-weight: 800;
+    border-radius: 5px;
+
+}
+
+.top-banner {
+    background-image: url(images/others/top-banner.png);
+    background-repeat: no-repeat;
+
+}
